@@ -7,16 +7,20 @@ import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'r
 function About() {
 
 	return( 
-		<Media>
-	      <Media left middle>
-	          <Media object src={"./AhmedMoustafa.jpg"} alt={"Ahmed Moustafa"} />
-	      </Media>
-	      <Media body className="ml-5">
-	        <Media heading>{"Ahmed Moustafa"}</Media>
-	        <p>{"Software Engineer"}</p>
-	        <p>{""}</p>
-	      </Media>
-	    </Media>
+		<div>
+            <h3>About</h3>
+            <hr />
+			<Media>
+		      <Media left middle>
+		          <Media object src={"./AhmedMoustafa.jpg"} alt={"Ahmed Moustafa"} />
+		      </Media>
+		      <Media body className="ml-5">
+		        <Media heading>{"Ahmed Moustafa"}</Media>
+		        <p>{"Software Engineer"}</p>
+		        <p>{""}</p>
+		      </Media>
+		    </Media>
+	    </div>
 	);
 }
 
