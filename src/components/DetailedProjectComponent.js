@@ -38,6 +38,7 @@ const  DetailedProject = (props) => {
 	                <Breadcrumb>
 	                	<BreadcrumbItem><Link to='/home'>Home</Link></BreadcrumbItem>
 	                    <BreadcrumbItem active>{props.project.name}</BreadcrumbItem>
+	                    <BreadcrumbItem><a href={props.project.link}>Live Demo</a></BreadcrumbItem>
 	                </Breadcrumb>
 	                <div className="col-12">
 	                    <h3>{props.project.name}</h3>

@@ -87,33 +87,33 @@ class Contact extends Component {
 	                    <div className="col-12 col-md-9">
 	                        <Form onSubmit={this.handleSubmit}>
 	                            <FormGroup row>
-	                                <Label htmlFor="subject" md={2}>Subject</Label>
-	                                <Col md={10}>
-	                                    <Input type="text" 
-	                                           id="subject" 
-	                                           name="subject" 
-	                                           placeholder="Subject" 
-	                                           value={this.state.subject}
-	                                           valid={errors.subject === '' && this.state.touched.subject}
-	                                           invalid={errors.subject !== ''} 
-	                                           onChange={this.handleInputChange} 
-	                                           onBlur={this.handleBlur('subject')} />
-	                                    <FormFeedback>{errors.subject}</FormFeedback>
-	                                </Col>
-	                            </FormGroup>
-	                            <FormGroup row>
 	                                <Label htmlFor="email" md={2}>Email</Label>
 	                                <Col md={10}>
 	                                    <Input type="email" 
 	                                           id="email" 
 	                                           name="email" 
-	                                           placeholder="Email" 
+	                                           placeholder="john.snow@winterfell.com" 
 	                                           value={this.state.email} 
 	                                           valid={errors.email === '' && this.state.touched.email}
 	                                           invalid={errors.email !== ''}
 	                                           onChange={this.handleInputChange} 
 	                                           onBlur={this.handleBlur('email')} />
 	                                    <FormFeedback>{errors.email}</FormFeedback>
+	                                </Col>
+	                            </FormGroup>
+	                            <FormGroup row>
+	                                <Label htmlFor="subject" md={2}>Subject</Label>
+	                                <Col md={10}>
+	                                    <Input type="text" 
+	                                           id="subject" 
+	                                           name="subject" 
+	                                           placeholder="Winter Is Coming!!" 
+	                                           value={this.state.subject}
+	                                           valid={errors.subject === '' && this.state.touched.subject}
+	                                           invalid={errors.subject !== ''} 
+	                                           onChange={this.handleInputChange} 
+	                                           onBlur={this.handleBlur('subject')} />
+	                                    <FormFeedback>{errors.subject}</FormFeedback>
 	                                </Col>
 	                            </FormGroup>
 	                            <FormGroup row>
@@ -132,7 +132,7 @@ class Contact extends Component {
 	                            </FormGroup>
 	                            <FormGroup row>
 	                                <Col md={{size: 10, offset: 2}}>
-	                                    <Button type="submit" color="primary">
+	                                    <Button type="submit" color="secondary">
 	                                    Send Message
 	                                    </Button>
 	                                </Col>

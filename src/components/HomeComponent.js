@@ -13,13 +13,15 @@ function Home(props) {
     return(
         <div className="container">
             <div className="row align-items-start">
-                <div className="col-12 col-md-12 m-1" id="about">
+                <div className="col-12 m-1" id="about">
                 	<About />
                 </div>
-                <div className="col-12 col-md-12 m-1" id="projects">
+                <br />
+                <div className="col-12 m-1" id="projects">
                 	<Example projects={props.projects} />
                 </div>
-                <div className="col-12 col-md-12 m-1" id="contact">
+                <br />
+                <div className="col-12 m-1" id="contact">
                 	<Contact />
                 </div>
             </div>
