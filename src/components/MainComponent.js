@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent';
 
-// import DishDetail from './DishdetailComponent';
+import DetailedProject from './DetailedProjectComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
@@ -30,7 +30,14 @@ class Main extends Component {
     };
   }
 
+
   render() {
+
+    const ProjectwithId = ({match}) => {
+      return(
+        <DetailedProject project={this.state.projects.filter((project) => project.id === parseInt(match.params.projectId, 10))[0]} />
+      );
+    };
     return (
       <div>
         <Header />
@@ -38,7 +45,7 @@ class Main extends Component {
           <CSSTransition key={this.props.location.key} classNames="page" timeout={300}>
             <Switch>
               <Route path="/home" component = {() => <Home projects={this.state.projects}/>} />
-              <Route path='/projects/:projectId' />
+              <Route path='/projects/:projectId' component={ProjectwithId}/>
               <Redirect to="/home" />
             </Switch>
           </CSSTransition>
