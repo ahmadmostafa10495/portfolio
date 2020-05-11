@@ -4,7 +4,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb,
 		 ModalBody, Label } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { FadeTransform, Fade, Stagger } from 'react-animation-components';
-
+import ProjectCarousel from './ProjectCarouselComponent'
 function RenderProject({project}) {
 	if (project != null) {
 		return (
@@ -45,12 +45,9 @@ const  DetailedProject = (props) => {
 	                </div>
 	            </div>
 				<div className="row">
-					<div className="col-12 col-md-5 m-1">
-						<RenderProject project={props.project} />
-					</div>
 
-					<div>
-						
+					<div className="col-12 m-1">
+						<ProjectCarousel project={props.project}/>
 					</div>
 				</div>
 			</div>
@@ -70,4 +67,9 @@ export default DetailedProject;
 										postComment={props.postComment}
 										dishId={props.dish.id}
 										/>
+					</div>
+
+
+										<div className="col-12 m-1">
+						<RenderProject project={props.project} />
 					</div>*/
