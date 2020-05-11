@@ -5,6 +5,7 @@ import React from 'react';
 import About from './AboutComponent';
 import Contact from './ContactComponent';
 import Projects from './ProjectsComponent';
+import Example from './ExampleComponent';
 
 
 
@@ -16,7 +17,7 @@ function Home(props) {
                 	<About />
                 </div>
                 <div className="col-12 col-md-12 m-1" id="projects">
-                	<Projects projects={props.projects} />
+                	<Example projects={props.projects} />
                 </div>
                 <div className="col-12 col-md-12 m-1" id="contact">
                 	<Contact />

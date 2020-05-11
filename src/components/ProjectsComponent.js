@@ -9,7 +9,7 @@ function RenderProject ({project}) {
             <Link to={`/projects/${project.id}`}>
             <CardImg width="100%" src={project.img} alt={project.name} />
             <CardImgOverlay>
-                <CardTitle>{project.name}</CardTitle>
+                <CardTitle className="text-center text-muted">{project.name}</CardTitle>
             </CardImgOverlay>
             </Link>
         </Card>

@@ -36,17 +36,17 @@ class Header extends Component {
 							  		</NavLink>
 							  	</NavItem>
 							  	<NavItem>
-							  		<a className="nav-link" href="#about">
+							  		<a className="nav-link" href="/home#about">
 							  			<span className="fa fa-info fa-lg"></span> About
 							  		</a>
 							  	</NavItem>
 							  	<NavItem>
-							  		<a className="nav-link" href="#projects">
+							  		<a className="nav-link" href="/home#projects">
 							  			<span className="fa fa-list fa-lg"></span> Projects
 							  		</a>
 							  	</NavItem>
 							  	<NavItem>
-							  		<a className="nav-link" href="#contact">
+							  		<a className="nav-link" href="/home#contact">
 							  			<span className="fa fa-address-card fa-lg"></span> Contact
 							  		</a>
 							  	</NavItem>
@@ -54,6 +54,16 @@ class Header extends Component {
 						</Collapse>
 					</div>
 				</Navbar>
+		        <Jumbotron>
+		        	<div className="container">
+		        		<div className="row row-header">
+		        			<div className="col-12">
+		                       <h1>Ahmed Moustafa</h1>
+		                       <p>I take inspiration from the world's remarkable artists, to create a unique user experience. My one of a kind creations will tickle your neuro optical senses!</p>
+		        			</div>
+		        		</div>
+		        	</div>
+		        </Jumbotron>
 			</React.Fragment>
 		);
 	}

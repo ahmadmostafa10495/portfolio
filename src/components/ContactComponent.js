@@ -82,6 +82,7 @@ class Contact extends Component {
 					<div className="row row-content">
 	                    <div className="col-12">
 	                        <h3>Contact</h3>
+	                        <hr />
 	                    </div>
 	                    <div className="col-12 col-md-9">
 	                        <Form onSubmit={this.handleSubmit}>
