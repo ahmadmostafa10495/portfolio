@@ -12,7 +12,7 @@ function About() {
             <hr />
 			<Media>
 		      <Media left middle>
-		          <Media object src={"./AhmedMoustafa.jpg"} alt={"Ahmed Moustafa"} />
+		          <Media object src={"/Images/AhmedMoustafa.jpg"} alt={"Ahmed Moustafa"} />
 		      </Media>
 		      <Media body className="ml-5">
 		        <Media heading>{"Ahmed Moustafa"}</Media>
