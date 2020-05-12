@@ -5,7 +5,7 @@ import React from 'react';
 import About from './AboutComponent';
 import Contact from './ContactComponent';
 import Projects from './ProjectsComponent';
-import Example from './ExampleComponent';
+
 
 
 
@@ -18,7 +18,7 @@ function Home(props) {
                 </div>
                 <br />
                 <div className="col-12 m-1" id="projects">
-                	<Example projects={props.projects} />
+                	<Projects projects={props.projects} />
                 </div>
                 <br />
                 <div className="col-12 m-1" id="contact">

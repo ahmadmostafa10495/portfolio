@@ -16,11 +16,11 @@ class Main extends Component {
     this.state = {
       projects: [
           {name:"Confusion",
-           img:"./s2out.png",
+           img:"/s2out.png",
            id: 0,
            link:"https://ahmadmostafa10495.github.io/Confusion",
            images:[{
-                    src: '../s21.png',
+                    src: '/s21.png',
                     altText: '',
                     caption: '',
                     header: '',
@@ -28,7 +28,7 @@ class Main extends Component {
                     id: 1
                   },
                   {
-                    src: '../s22.png',
+                    src: '/s22.png',
                     altText: '',
                     caption: '',
                     header: '',
@@ -36,7 +36,7 @@ class Main extends Component {
                     id: 2
                   },
                   {
-                    src: '../s23.png',
+                    src: '/s23.png',
                     altText: '',
                     caption: '',
                     header: '',
@@ -45,18 +45,18 @@ class Main extends Component {
                   }
                 ]},
           {name:"Background Color Generator",
-           img:"./s3out.png",
+           img:"/s3out.png",
            id: 1,
            link:"https://ahmadmostafa10495.github.io/Background.Generator.io/",
            images:[{
-                  src: '../s31.png',
+                  src: '/s31.png',
                   altText: '',
                   caption: '',
                   header: '',
                   key: '1'
                 },
                 {
-                  src: '../s32.png',
+                  src: '/s32.png',
                   altText: '',
                   caption: '',
                   header: '',
@@ -64,25 +64,25 @@ class Main extends Component {
                 }
               ]},
           {name:"Confusion",
-           img:"./s1out.png",
+           img:"/s1out.png",
            id: 2,
            link:"https://ahmadmostafa10495.github.io/Confusion-bootstrap/",
            images:[{
-                src: '../s11.png',
+                src: '/s11.png',
                 altText: '',
                 caption: '',
                 header: '',
                 key: '1'
               },
               {
-                src: '../s12.png',
+                src: '/s12.png',
                 altText: '',
                 caption: '',
                 header: '',
                 key: '2'
               },
               {
-                src: '../s13.png',
+                src: '/s13.png',
                 altText: '',
                 caption: '',
                 header: '',
@@ -90,7 +90,7 @@ class Main extends Component {
               }
             ]},
           {name:"p3",
-           img:"./AhmedMoustafa.jpg",
+           img:"/AhmedMoustafa.jpg",
            id: 3,
            link:"",
            images:[{

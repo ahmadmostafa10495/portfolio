@@ -14,7 +14,7 @@ function RenderProject({project}) {
 		    			exitTransform: 'scale(0.5) translateY(-50%)'
 		    		}}>
 					<Card>
-						<CardImg width="100%" object src={"." + project.img} alt={project.name} />
+						<CardImg width="100%" object src={project.img} alt={project.name} />
 						<CardBody>
 							<CardTitle>{project.name}</CardTitle>
 							<CardText>{project.description}</CardText>
