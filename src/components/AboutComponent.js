@@ -1,7 +1,7 @@
 import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'reactstrap';
 // import { Loading } from './LoadingComponent';
-import Ahmed from './images/AhmedMoustafa.jpg'
+import Ahmed from '../AhmedMoustafa.jpg'
 
 
 function About() {
