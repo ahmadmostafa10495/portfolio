@@ -10,24 +10,24 @@ function Footer(props) {
                     <h5>Links</h5>
                     <ul className="list-unstyled">
                         <li><Link to="/home">Home</Link></li>
-                        <li><a href="/home#about">About</a></li>
-                        <li><a href="/home#projects">Projects</a></li>
-                        <li><a href="/home#contact">Contact</a></li>
+                        <li><a className="footer-link" href="/home#about">About</a></li>
+                        <li><a className="footer-link" href="/home#projects">Projects</a></li>
+                        <li><a className="footer-link" href="/home#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">
                     <h5>Reach Out</h5>
-                    <address>
+                    <address className="footer-link">
 		              123, Main Road<br />
 		              Nasr City, Cairo<br />
 		              Egypt<br />
-		              <i className="fa fa-phone fa-lg"></i>: +123456789<br />
-		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:a7mad53@ymail.com">
+		              <i className="fa fa-phone fa-lg footer-link color-text"></i> +123456789<br />
+		              <i className="fa fa-envelope fa-lg footer-link color-text"></i> <a className="footer-link" href="mailto:a7mad53@ymail.com">
                          a7mad53@ymail.com</a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">
-                    <div className="text-center">
+                    <div className="text-center social-btn">
                         <a className="btn btn-social-icon btn-github mx-1" href="https://github.com/ahmadmostafa10495"><i className="fa fa-github"></i></a>
                         <a className="btn btn-social-icon btn-facebook mx-1" href="https://www.facebook.com/ahmed.mostafa.3939503"><i className="fa fa-facebook"></i></a>
                         <a className="btn btn-social-icon btn-linkedin mx-1" href="https://www.linkedin.com/in/ahmed--moustafa/"><i className="fa fa-linkedin"></i></a>
@@ -41,7 +41,7 @@ function Footer(props) {
             </div>
             <div className="row justify-content-center">             
                 <div className="col-auto">
-                    <p>© Copyright 2020 Ahmed Moustafa</p>
+                    <p className="footer-link">© Copyright 2020 Ahmed Moustafa</p>
                 </div>
             </div>
         </div>

@@ -1,3 +1,12 @@
+:root
+{   --firstDarkBlue:#fff;
+    --secondDarkBlue:#fff;
+    --deeperDarkBlue:#fff;
+    --thirdDarkBlue:#fff;
+    --specialDarkBlue:#919EFF;
+    --text:#000;
+    --melon:#FB2B4E;
+}
 .row-header{
     margin:0px auto;
     padding:0px auto;
@@ -6,30 +15,39 @@
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
     min-height:400px;
 }
 
 .footer{
-    background-color: #333333;
+    /*background-color: #333333;*/
+
+    background-color: var(--deeperDarkBlue);
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #555555;
+    /*background: #555555;*/
+    background-color: var(--specialDarkBlue);
     color:floralwhite;
+    /*color: var(--text);*/
+}
+.color-text
+{
+
+    color:var(--text)!important;
 }
 
 address{
     font-size:80%;
     margin:0px;
-    color:#0f0f0f;
+    color:var(--text)!important;
 }
 
 .navbar-dark {
-    background-color: #0f0f0f;
+    /*background-color: #0f0f0f;*/
+    background-color: var(--firstDarkBlue);
 }
 
 .page-enter {
@@ -57,4 +75,73 @@ address{
 .carousel-item img {
     height: 400px!important;
 }
+.card-columns .card {
+    margin-bottom: 1.25rem !important;
+    background-color: var(--secondDarkBlue);
+}
+.jumbotron {
+     border-radius: 0; 
+}
+.btn-secondary {
+    color: #fff;
+    background-color: var(--melon);
+    border-color: var(--secondDarkBlue);
+}
 
+.btn-secondary:hover {
+    color: #fff;
+    background-color: var(--secondDarkBlue);
+}
+.footer-link
+{
+    color: #fff;
+}
+
+.footer-link :hover
+{
+    color: var(--melon) !important;
+}
+a
+{
+    color: var(--text) !important;
+}
+a:hover {
+     color: var(--melon) !important;
+}
+
+a:not([href]):hover
+{
+    cursor: pointer;
+}
+body
+{
+    background-color: var(--firstDarkBlue);
+    color: var(--text);
+}
+.bg-thirdBlue
+{
+    background-color: var(--thirdDarkBlue)!important;
+}
+.breadcrumb {
+    background-color:var(--thirdDarkBlue);
+}
+.breadcrumb-item.active {
+    color: #fff;
+    font-weight: bolder;
+}
+.border-bottom
+{
+    border-bottom: 1px ridge;
+}
+
+.social-btn a {
+    color: #fff!important;
+}
+.navbar-toggler {
+    background-color: var(--specialDarkBlue);
+    border: 1px solid var(--specialDarkBlue);
+}
+
+.profile-img {
+    border-radius: 50%;
+}

@@ -132,7 +132,7 @@ class Contact extends Component {
 	                            </FormGroup>
 	                            <FormGroup row>
 	                                <Col md={{size: 10, offset: 2}}>
-	                                    <Button type="submit" color="secondary">
+	                                    <Button type="submit" color="secondary ">
 	                                    Send Message
 	                                    </Button>
 	                                </Col>
@@ -140,8 +140,8 @@ class Contact extends Component {
 	                        </Form>
 	                    </div>
 	                </div>
-	                <div className="col-12 align-self-center">
-	                    <div className="text-center">
+	                <div className="col-12 align-self-center border-bottom pb-5" >
+	                    <div className="text-center social-btn">
 	                        <a className="btn btn-social-icon btn-github mx-1" href="https://github.com/ahmadmostafa10495"><i className="fa fa-github"></i></a>
 	                        <a className="btn btn-social-icon btn-facebook mx-1" href="https://www.facebook.com/ahmed.mostafa.3939503"><i className="fa fa-facebook"></i></a>
 	                        <a className="btn btn-social-icon btn-linkedin mx-1" href="https://www.linkedin.com/in/ahmed--moustafa/"><i className="fa fa-linkedin"></i></a>

@@ -8,9 +8,12 @@ class Header extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			isNavOpen: false
+			isNavOpen: false,
+			isDark: false,
+			darkText: "Dark"
 		};
 		this.toggleNav = this.toggleNav.bind(this);
+		this.darkTheme = this.darkTheme.bind(this);
 	}
 
 	toggleNav() {
@@ -19,15 +22,60 @@ class Header extends Component {
 		});
 	}
 
+  darkTheme(){
+  	console.log(document.getElementById("dark-theme-btn").innerHtmn);
+  	if (this.state.isDark)
+  	{
+	  	// this.state.isDark = false;
+	  	this.setState({
+			darkText: "Dark",
+			isDark: !this.state.isDark
+		});
+	  	document.documentElement.style.setProperty('--deeperDarkBlue', '#fff');
+	  	document.documentElement.style.setProperty('--firstDarkBlue', '#fff');
+	  	document.documentElement.style.setProperty('--secondDarkBlue', '#fff');
+	  	document.documentElement.style.setProperty('--thirdDarkBlue', '#fff');
+	  	document.documentElement.style.setProperty('--specialDarkBlue', '#919EFF');
+	  	document.documentElement.style.setProperty('--text', '#000');
+	  	// $("#dark-theme-btn").html("Dark");
+	  	// document.getElementById("dark-theme-btn").innerHtml = "Dark";
+	  	// let body = document.getElementsByTagName("BODY")[0];
+    // 	body.style.color = "#000"
+  	}
+  	else
+  	{  		
+  		// this.state.isDark = true;
+	  	// this.state.darkText = "Light";
+	  	this.setState({
+			darkText: "Light",
+			isDark: !this.state.isDark
+		});
+	  	document.documentElement.style.setProperty('--deeperDarkBlue', '#131524');
+	  	document.documentElement.style.setProperty('--firstDarkBlue', '#191B2F');
+	  	document.documentElement.style.setProperty('--secondDarkBlue', '#0F2447');
+	  	document.documentElement.style.setProperty('--thirdDarkBlue', '#064169');
+	  	document.documentElement.style.setProperty('--specialDarkBlue', '#0F2447');
+	  	document.documentElement.style.setProperty('--text', '#fff');
+	  	// $("#dark-theme-btn").html("Light");
+	  	// document.getElementById("dark-theme-btn").innerHtml = "Light";
+  	}
+
+	    console.log("isDark",this.state.isDark);
+    // let body = document.getElementsByTagName("BODY")[0];
+    // body.style.
+    // let bg = document.documentElement.style.getProperty("--firstDarkBlue")
+    // if ()
+    // document.documentElement.style.setProperty('--firstDarkBlue', '#fff');
+    };
 	render() {
 		return(
 			<React.Fragment>
 				<Navbar dark expand="md">
 					<div className="container">
-						<NavbarToggler onClick={this.toggleNav} />
 						<NavbarBrand className="mr-auto"href="/">
 						<img src={logoAM} height="70" width="70" alt="AM"/>
 						</NavbarBrand>
+						<NavbarToggler onClick={this.toggleNav} />
 						<Collapse isOpen={this.state.isNavOpen} navbar>
 						  	<Nav navbar className="ml-auto">
 							  	<NavItem>
@@ -51,6 +99,13 @@ class Header extends Component {
 							  		</a>
 							  	</NavItem>
 						  	</Nav>
+						 	<Nav className="ml-auto" navbar>
+						 		<NavItem>
+						 			<a outline onClick={this.darkTheme} id = "dark-theme-btn" >
+						 				<span className="fa fa-adjust fa-lg"></span> {this.state.darkText}
+						 			</a>
+						 		</NavItem>
+						  	</Nav>	  
 						</Collapse>
 					</div>
 				</Navbar>
@@ -72,12 +127,12 @@ class Header extends Component {
 
 
 export default Header;
-/*
-						 	<Nav className="ml-auto" navbar>
-						 		<NavItem>
-						 			<Button outline >
-						 				<span className="fa fa-adjust fa-lg"></span> Dark
-						 			</Button>
-						 		</NavItem>
-						  	</Nav>
-						  */
+
+						 	// <Nav className="ml-auto" navbar>
+						 	// 	<NavItem>
+						 	// 		<Button outline >
+						 	// 			<span className="fa fa-adjust fa-lg"></span> Dark
+						 	// 		</Button>
+						 	// 	</NavItem>
+						  // 	</Nav>
+						  // 
