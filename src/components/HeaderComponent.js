@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {Navbar, NavbarBrand, Nav, NavbarToggler, Collapse,
 		NavItem, Jumbotron, Button } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import logoAM from "../images/logoAM.png";
+import logolight from "../images/logolight.png";
+import logodark from "../images/logodark.png";
 class Header extends Component {
 
 	constructor(props) {
@@ -10,7 +11,8 @@ class Header extends Component {
 		this.state = {
 			isNavOpen: false,
 			isDark: false,
-			darkText: "Dark"
+			darkText: "Dark",
+			logo: logolight
 		};
 		this.toggleNav = this.toggleNav.bind(this);
 		this.darkTheme = this.darkTheme.bind(this);
@@ -29,7 +31,8 @@ class Header extends Component {
 	  	// this.state.isDark = false;
 	  	this.setState({
 			darkText: "Dark",
-			isDark: !this.state.isDark
+			isDark: !this.state.isDark,
+			logo: logolight
 		});
 	  	document.documentElement.style.setProperty('--deeperDarkBlue', '#fff');
 	  	document.documentElement.style.setProperty('--firstDarkBlue', '#fff');
@@ -48,7 +51,8 @@ class Header extends Component {
 	  	// this.state.darkText = "Light";
 	  	this.setState({
 			darkText: "Light",
-			isDark: !this.state.isDark
+			isDark: !this.state.isDark,
+			logo: logodark
 		});
 	  	document.documentElement.style.setProperty('--deeperDarkBlue', '#131524');
 	  	document.documentElement.style.setProperty('--firstDarkBlue', '#191B2F');
@@ -73,7 +77,7 @@ class Header extends Component {
 				<Navbar dark expand="md">
 					<div className="container">
 						<NavbarBrand className="mr-auto"href="/">
-						<img src={logoAM} height="70" width="70" alt="AM"/>
+						<img src={this.state.logo} height="70" width="70" alt="AM"/>
 						</NavbarBrand>
 						<NavbarToggler onClick={this.toggleNav} />
 						<Collapse isOpen={this.state.isNavOpen} navbar>

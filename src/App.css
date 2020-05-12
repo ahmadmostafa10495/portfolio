@@ -104,6 +104,7 @@ address{
 a
 {
     color: var(--text) !important;
+    text-decoration: underline;
 }
 a:hover {
      color: var(--melon) !important;
@@ -126,7 +127,7 @@ body
     background-color:var(--thirdDarkBlue);
 }
 .breadcrumb-item.active {
-    color: #fff;
+    color: var(--text);
     font-weight: bolder;
 }
 .border-bottom
@@ -144,4 +145,8 @@ body
 
 .profile-img {
     border-radius: 50%;
+}
+.nav-link  {
+    text-decoration: none;
+
 }

@@ -13,13 +13,12 @@ function About() {
             <hr />
 			<Media>
 		      <Media body className="">
+		        <Media middle className="profile-img" object src={Ahmed} alt={"Ahmed Moustafa"} />
 		        <Media heading>{"Ahmed Moustafa"}</Media>
 		        <p>{"Software Engineer"}</p>
 		        <p>{"Hi, I'm Ahmed and I live in Egypt, I love everything that has to do with programming, I always want to learn new stuff about different tech fields, I believe that one should learn one thing about everything and everything about one thing, and finally 'You are who YOU believe you are'."}</p>
 		      </Media>
-		      <Media top right >
-		          <Media className="profile-img" object src={Ahmed} alt={"Ahmed Moustafa"} />
-		      </Media>
+
 		    </Media>
 	    </div>
 	);
