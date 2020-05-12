@@ -16,7 +16,7 @@ class Main extends Component {
     this.state = {
       projects: [
           {name:"Confusion",
-           img:"/Images/s2out.png",
+           img:"./images/s2out.png",
            id: 0,
            link:"https://ahmadmostafa10495.github.io/Confusion",
            images:[{
