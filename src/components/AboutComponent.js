@@ -1,7 +1,7 @@
 import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'reactstrap';
 // import { Loading } from './LoadingComponent';
-
+import Ahmed from './AhmedMoustafa.jpg'
 
 
 function About() {
@@ -12,7 +12,7 @@ function About() {
             <hr />
 			<Media>
 		      <Media left middle>
-		          <Media object src={window.location.origin + "/images/AhmedMoustafa.jpg?raw=true"} alt={"Ahmed Moustafa"} />
+		          <Media object src={Ahmed} alt={"Ahmed Moustafa"} />
 		      </Media>
 		      <Media body className="ml-5">
 		        <Media heading>{"Ahmed Moustafa"}</Media>
