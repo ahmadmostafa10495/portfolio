@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Navbar, NavbarBrand, Nav, NavbarToggler, Collapse,
 		NavItem, Jumbotron, Button } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-
+import logoAM from "../images/logoAM.png";
 class Header extends Component {
 
 	constructor(props) {
@@ -26,7 +26,7 @@ class Header extends Component {
 					<div className="container">
 						<NavbarToggler onClick={this.toggleNav} />
 						<NavbarBrand className="mr-auto"href="/">
-						<img src="/Images/logoAM.png" height="70" width="70" alt="AM"/>
+						<img src={logoAM} height="70" width="70" alt="AM"/>
 						</NavbarBrand>
 						<Collapse isOpen={this.state.isNavOpen} navbar>
 						  	<Nav navbar className="ml-auto">

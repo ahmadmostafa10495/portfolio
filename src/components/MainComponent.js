@@ -6,9 +6,17 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-
-
-
+import s2out from "../images/s2out.png";
+import s21 from '../images/s21.png';
+import s22 from '../images/s22.png';
+import s23 from '../images/s23.png';
+import s3out from "../images/s3out.png";
+import s31 from '../images/s31.png';
+import s32 from '../images/s32.png';
+import s1out from "../images/s1out.png";
+import s11 from '../images/s11.png';
+import s12 from '../images/s12.png';
+import s13 from '../images/s13.png';
 class Main extends Component {
 
   constructor(props) {
@@ -16,11 +24,11 @@ class Main extends Component {
     this.state = {
       projects: [
           {name:"Confusion",
-           img:"./images/s2out.png",
+           img: s2out,
            id: 0,
            link:"https://ahmadmostafa10495.github.io/Confusion",
            images:[{
-                    src: '/Images/s21.png',
+                    src:s21 ,
                     altText: '',
                     caption: '',
                     header: '',
@@ -28,7 +36,7 @@ class Main extends Component {
                     id: 1
                   },
                   {
-                    src: '/Images/s22.png',
+                    src: s22,
                     altText: '',
                     caption: '',
                     header: '',
@@ -36,7 +44,7 @@ class Main extends Component {
                     id: 2
                   },
                   {
-                    src: '/Images/s23.png',
+                    src: s23,
                     altText: '',
                     caption: '',
                     header: '',
@@ -45,18 +53,18 @@ class Main extends Component {
                   }
                 ]},
           {name:"Background Color Generator",
-           img:"/Images/s3out.png",
+           img:s3out,
            id: 1,
            link:"https://ahmadmostafa10495.github.io/Background.Generator.io/",
            images:[{
-                  src: '/Images/s31.png',
+                  src: s31,
                   altText: '',
                   caption: '',
                   header: '',
                   key: '1'
                 },
                 {
-                  src: '/Images/s32.png',
+                  src: s32,
                   altText: '',
                   caption: '',
                   header: '',
@@ -64,25 +72,25 @@ class Main extends Component {
                 }
               ]},
           {name:"Confusion",
-           img:"/Images/s1out.png",
+           img: s1out,
            id: 2,
            link:"https://ahmadmostafa10495.github.io/Confusion-bootstrap/",
            images:[{
-                src: '/Images/s11.png',
+                src: s11,
                 altText: '',
                 caption: '',
                 header: '',
                 key: '1'
               },
               {
-                src: '/Images/s12.png',
+                src: s12,
                 altText: '',
                 caption: '',
                 header: '',
                 key: '2'
               },
               {
-                src: '/Images/s13.png',
+                src: s13,
                 altText: '',
                 caption: '',
                 header: '',
