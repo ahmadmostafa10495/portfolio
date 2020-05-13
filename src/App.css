@@ -4,6 +4,7 @@
     --deeperDarkBlue:#fff;
     --thirdDarkBlue:#fff;
     --specialDarkBlue:#919EFF;
+    --lightBorder:#b2b2b2;
     --text:#000;
     --melon:#FB2B4E;
 }
@@ -149,4 +150,104 @@ body
 .nav-link  {
     text-decoration: none;
 
+}
+
+
+/*new */
+.wrapper { 
+  border : 2px solid #000; 
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+#profile-img-section {
+  float:left; 
+  margin-right:20px;
+  width:17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: gray;*/
+  /*border-right:2px solid #000;*/
+}
+#profile-desc-section { 
+  /*background-color: gray;*/
+  /*border:2px dashed #ccc;*/
+  /*overflow:hidden;*/
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height:17rem;
+}
+.title
+{
+    align-self: flex-start;
+}
+.section-title
+{
+
+}
+.progress-bar-width
+{
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    width: 9.3rem;
+}
+.skills-div
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /*justify-content: flex-start;
+    align-items: flex-start;*/
+    padding: 2rem;
+    /*background-color: red; */
+}
+.skills-div-wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: blue; */
+    /*border: 2px solid var(--specialDarkBlue);*/
+}
+.progress-skill-name
+{
+    /*background-color: red;*/
+    width:8rem;
+}
+.btn-outline-white
+{    
+    color:#fff !important;
+    border-color:#fff;
+    text-decoration: none !important;
+}
+hr
+{
+    border-color: var(--lightBorder); 
+}
+
+@media screen and (max-width: 600px) {
+   #profile-img-section { 
+    float: none;
+    width:100%;
+    border:0;
+
+    /*margin-right:0;*/
+    /*border-bottom:2px solid #000;    */
+
+  }
+  .title
+  {
+    align-self: center;
+  }
+  .section-title
+  {
+    text-align: center
+  }
 }

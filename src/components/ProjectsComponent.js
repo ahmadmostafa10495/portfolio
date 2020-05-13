@@ -11,7 +11,7 @@ const Projects = (props) => {
     <div className="container">
         <div className="row">
             <div className="col-12">
-                <h3>Projects</h3>
+                <h3 className="section-title">Projects</h3>
                 <hr />
             </div>
         </div>

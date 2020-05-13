@@ -6,7 +6,7 @@ import logolight from "../images/logolight.png";
 import logodark from "../images/logodark.png";
 import iconlight from "../images/iconlight.ico";
 import icondark from "../images/icondark.ico";
-
+import resume from "../Ahmed Moustafa Software Engineer.pdf";
 class Header extends Component {
 
 	constructor(props) {
@@ -129,9 +129,10 @@ class Header extends Component {
 		        <Jumbotron>
 		        	<div className="container">
 		        		<div className="row row-header">
-		        			<div className="col-12">
+		        			<div className="col-12 section-title">
 		                       <h1>Ahmed Moustafa</h1>
 		                       <p>I take inspiration from the world's remarkable artists, to create a unique user experience. My one of a kind creations will tickle your neuro optical senses!</p>
+		        			   <a href={resume} className="btn btn-outline-white" download>View My Resume</a>
 		        			</div>
 		        		</div>
 		        	</div>
