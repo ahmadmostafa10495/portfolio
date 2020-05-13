@@ -1,34 +1,31 @@
-import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb,
-		 BreadcrumbItem, Button, Row, Col, Modal, ModalHeader, 
-		 ModalBody, Label } from 'reactstrap';
+import React from 'react';
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { FadeTransform, Fade, Stagger } from 'react-animation-components';
 import ProjectCarousel from './ProjectCarouselComponent'
-function RenderProject({project}) {
-	if (project != null) {
-		return (
-			<div>
-		    	<FadeTransform in 
-		    		transformProps={{
-		    			exitTransform: 'scale(0.5) translateY(-50%)'
-		    		}}>
-					<Card>
-						<CardImg width="100%" object src={project.img} alt={project.name} />
-						<CardBody>
-							<CardTitle>{project.name}</CardTitle>
-							<CardText>{project.description}</CardText>
-						</CardBody>
-					</Card>
-		        </FadeTransform>
-	        </div>
-		);
-	} else {
-		return (
-			<div></div>
-		);
-	}
-}
+// function RenderProject({project}) {
+// 	if (project != null) {
+// 		return (
+// 			<div>
+// 		    	<FadeTransform in 
+// 		    		transformProps={{
+// 		    			exitTransform: 'scale(0.5) translateY(-50%)'
+// 		    		}}>
+// 					<Card>
+// 						<CardImg width="100%" object src={project.img} alt={project.name} />
+// 						<CardBody>
+// 							<CardTitle>{project.name}</CardTitle>
+// 							<CardText>{project.description}</CardText>
+// 						</CardBody>
+// 					</Card>
+// 		        </FadeTransform>
+// 	        </div>
+// 		);
+// 	} else {
+// 		return (
+// 			<div></div>
+// 		);
+// 	}
+// }
 
 const  DetailedProject = (props) => {
 	if(props.project != null) {

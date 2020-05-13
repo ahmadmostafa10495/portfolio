@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import { Breadcrumb, BreadcrumbItem, Button, Form, FormGroup, Label, Input, Col, Row, FormFeedback } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Button, Form, FormGroup, Label, Input, Col, FormFeedback } from 'reactstrap';
 
-const required = (val) => val && val.length;
+// const required = (val) => val && val.length;
 
-const maxLength = (len) => (val) => !(val) || (val.length <= len);
+// const maxLength = (len) => (val) => !(val) || (val.length <= len);
 
-const minLength = (len) => (val) => (val) && (val.length >= len);
+// const minLength = (len) => (val) => (val) && (val.length >= len);
 
-const isNumber = (val) => !isNaN(Number(val));
+// const isNumber = (val) => !isNaN(Number(val));
 
-const validEmail = (val) => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(val);
+// const validEmail = (val) => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(val);
 
 class Contact extends Component {
     
@@ -58,7 +57,7 @@ class Contact extends Component {
 
         })
   	    window.emailjs.send("default_service", "template_X4M0HAzv", {
-			  from_name: email,
+			  from_name: subject,
 			  message_html: message,
 			  reply_to: email,
 			  to_name: reciever

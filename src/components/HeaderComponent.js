@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Navbar, NavbarBrand, Nav, NavbarToggler, Collapse,
-		NavItem, Jumbotron, Button } from 'reactstrap';
+		NavItem, Jumbotron} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import logolight from "../images/logolight.png";
 import logodark from "../images/logodark.png";
@@ -47,7 +47,7 @@ class Header extends Component {
 	  	// document.getElementById("favicon").setAttribute("href","%PUBLIC_URL%/favicon.ico");
 	  	// let body = document.getElementsByTagName("BODY")[0];
     // 	body.style.color = "#000"
-	    var link = document.getElementById("favicon");
+	    let link = document.getElementById("favicon");
 	    // link.type = 'image/x-icon';
 	    link.rel = 'icon';
 	    link.href = iconlight;
@@ -70,7 +70,7 @@ class Header extends Component {
 	  	document.documentElement.style.setProperty('--text', '#fff');
 	  	// $("#dark-theme-btn").html("Light");
 	  	// document.getElementById("dark-theme-btn").innerHtml = "Light";
-	    var link = document.getElementById("favicon");
+	    let link = document.getElementById("favicon");
 	    // link.type = 'image/x-icon';
 	    link.rel = 'icon';
 	    link.href = icondark;
@@ -118,7 +118,7 @@ class Header extends Component {
 						  	</Nav>
 						 	<Nav className="ml-auto" navbar>
 						 		<NavItem>
-						 			<a outline onClick={this.darkTheme} id = "dark-theme-btn" >
+						 			<a onClick={this.darkTheme} id = "dark-theme-btn" >
 						 				<span className="fa fa-adjust fa-lg"></span> {this.state.darkText}
 						 			</a>
 						 		</NavItem>
