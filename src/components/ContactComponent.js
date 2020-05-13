@@ -40,8 +40,35 @@ class Contact extends Component {
         });
     }
     handleSubmit(event) {
-        console.log("Current State is: " + JSON.stringify(this.state));
-        alert("Current State is: " + JSON.stringify(this.state));
+        // console.log("Current State is: " + JSON.stringify(this.state));
+
+        let email = this.state.email;
+        let subject = this.state.subject;
+        let message = this.state.message;
+        let reciever = "a7mad53@ymail.com";
+        this.setState({
+            subject: '',
+            email: '',
+            message: '',
+            touched: {
+                subject: false,
+                email: false,
+                message: false,
+            },
+
+        })
+  	    window.emailjs.send("default_service", "template_X4M0HAzv", {
+			  from_name: email,
+			  message_html: message,
+			  reply_to: email,
+			  to_name: reciever
+			}
+	      )
+	      .then(res => {
+	      	 alert("Sent!!");
+	      })
+	      // Handle errors here however you like
+	      .catch(err => console.error('Failed to send feedback. Error: ', err));
         event.preventDefault();
     }
 
