@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71c1892476c331bd8279109c817c58f6",
+    "revision": "cd31c7c728b66f6cc2060f1c648c0d44",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "65204e0d7d8ac82c81ee",
+    "revision": "4f5efe9db93a93b1c535",
     "url": "/portfolio/static/css/2.60668f69.chunk.css"
   },
   {
-    "revision": "2dd7b346ba76e337c559",
-    "url": "/portfolio/static/css/main.8f008303.chunk.css"
+    "revision": "cb5cb8021c06767d9f64",
+    "url": "/portfolio/static/css/main.8dd65a83.chunk.css"
   },
   {
-    "revision": "65204e0d7d8ac82c81ee",
-    "url": "/portfolio/static/js/2.76a6c844.chunk.js"
+    "revision": "4f5efe9db93a93b1c535",
+    "url": "/portfolio/static/js/2.1bd99e2b.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio/static/js/2.76a6c844.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.1bd99e2b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2dd7b346ba76e337c559",
-    "url": "/portfolio/static/js/main.a229caad.chunk.js"
+    "revision": "cb5cb8021c06767d9f64",
+    "url": "/portfolio/static/js/main.ae7612f4.chunk.js"
   },
   {
     "revision": "e5284505c87d0b24b753",
     "url": "/portfolio/static/js/runtime-main.f4f2abbf.js"
+  },
+  {
+    "revision": "31958e645dd65ef9be84f9c5223846e3",
+    "url": "/portfolio/static/media/Ahmed Moustafa Software Engineer.31958e64.pdf"
   },
   {
     "revision": "a6572060eef1fb8eefccec6ec5c33e1e",
