@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8f008303.chunk.css",
-    "main.js": "/portfolio/static/js/main.73962ebf.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.73962ebf.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.9b0ac74b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9b0ac74b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
     "static/css/2.60668f69.chunk.css": "/portfolio/static/css/2.60668f69.chunk.css",
-    "static/js/2.11a72e94.chunk.js": "/portfolio/static/js/2.11a72e94.chunk.js",
-    "static/js/2.11a72e94.chunk.js.map": "/portfolio/static/js/2.11a72e94.chunk.js.map",
+    "static/js/2.8346fcdd.chunk.js": "/portfolio/static/js/2.8346fcdd.chunk.js",
+    "static/js/2.8346fcdd.chunk.js.map": "/portfolio/static/js/2.8346fcdd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.aeadf6d851acdfe5a0e6a95faac2068a.js": "/portfolio/precache-manifest.aeadf6d851acdfe5a0e6a95faac2068a.js",
+    "precache-manifest.e2490d942c5cfcc97c531950794e5886.js": "/portfolio/precache-manifest.e2490d942c5cfcc97c531950794e5886.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.60668f69.chunk.css.map": "/portfolio/static/css/2.60668f69.chunk.css.map",
     "static/css/main.8f008303.chunk.css.map": "/portfolio/static/css/main.8f008303.chunk.css.map",
-    "static/js/2.11a72e94.chunk.js.LICENSE.txt": "/portfolio/static/js/2.11a72e94.chunk.js.LICENSE.txt",
+    "static/js/2.8346fcdd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8346fcdd.chunk.js.LICENSE.txt",
     "static/media/AhmedMoustafa.jpg": "/portfolio/static/media/AhmedMoustafa.a6572060.jpg",
     "static/media/font-awesome.min.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/icondark.ico": "/portfolio/static/media/icondark.13689f0f.ico",
+    "static/media/iconlight.ico": "/portfolio/static/media/iconlight.348fb6cc.ico",
     "static/media/logodark.png": "/portfolio/static/media/logodark.13689f0f.png",
     "static/media/logolight.png": "/portfolio/static/media/logolight.348fb6cc.png",
     "static/media/s11.png": "/portfolio/static/media/s11.f2cc0d5a.png",
@@ -33,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.f4f2abbf.js",
     "static/css/2.60668f69.chunk.css",
-    "static/js/2.11a72e94.chunk.js",
+    "static/js/2.8346fcdd.chunk.js",
     "static/css/main.8f008303.chunk.css",
-    "static/js/main.73962ebf.chunk.js"
+    "static/js/main.9b0ac74b.chunk.js"
   ]
 }
