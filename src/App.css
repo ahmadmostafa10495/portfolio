@@ -91,7 +91,7 @@ address{
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: var(--secondDarkBlue);
+    background-color: var(--specialDarkBlue);
 }
 .footer-link
 {
@@ -251,3 +251,4 @@ hr
     text-align: center
   }
 }
+

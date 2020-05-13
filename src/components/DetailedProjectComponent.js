@@ -30,7 +30,7 @@ import ProjectCarousel from './ProjectCarouselComponent'
 const  DetailedProject = (props) => {
 	if(props.project != null) {
 		return (
-			<div className="container">
+			<div className="container mt-2">
             	<div className="row">
 	                <Breadcrumb>
 	                	<BreadcrumbItem><Link to='/home'>Home</Link></BreadcrumbItem>

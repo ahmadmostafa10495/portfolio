@@ -144,32 +144,32 @@ function About() {
             	<div className="m-5">
             		 <h5 className="section-title">AIESEC India</h5>
             		 <h6 className="section-title"> Global Citizen | Jun 2015—Aug 2015</h6>
-            		 <p>Teaching and interacting with more than 5000 of India's students, leaving them with a whole lot of information about Egypt and the Egyptain culture.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            		 <p>Teaching and interacting with more than 5000 of India's students, leaving them with a whole lot of information about Egypt and the Egyptain culture.<br />AIESEC is the world's leading youth leadership development organization. Developing the potential of young people across 120 countries and territories.</p>
             	</div>
             	<div className="m-5">
             		 <h5 className="section-title">AIESEC Egypt</h5>
             		 <h6 className="section-title"> Finance & Legalities Team Leader | Feb 2018—Aug 2018</h6>
-            		 <p>I was responsible for contracts and finantial issues in my local committee.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            		 <p>I was responsible for contracts and finantial issues in my local committee.<br />AIESEC is the world's leading youth leadership development organization. Developing the potential of young people across 120 countries and territories.</p>
             	</div>
             	<div className="m-5">
             		 <h5 className="section-title">Catalysis</h5>
             		 <h6 className="section-title"> Academic Committee Vice Head | Sep 2017—Jun 2018</h6>
-            		 <p>I was responsible for leading and training my team to create a science fair in our collage.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            	
+            		 <p>I was responsible for leading and training my team to create a science fair in our collage.<br />Catalysis is the first student activity in the credit hours engineering program in Ain Shams University, aiming to develop students scientifically and increase their awareness, and working on applying science and using it to the best of our country.</p>            	
             	</div>
             	<div className="m-5">
             		 <h5 className="section-title">APEC</h5>
             		 <h6 className="section-title"> Public Relations Representative | Jan 2016—Jun 2016</h6>
-            		 <p>I was responsible for social media marking and offline representation of our student activity.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            	            	
+            		 <p>I was responsible for social media marking and offline representation of our student activity.<br />APEC (short for Associative Power Engineering Community), is a Non-profit organization headquartered at Faculty of Engineering, Ain Shams University, In cooperation with leading multinational industrial companies APEC offers free technical courses, visits & summer training opportunities for undergraduates besides many other events.</p>            	            	
             	</div>
             	<div className="m-5">
             		 <h5 className="section-title">Catalysis</h5>
             		 <h6 className="section-title"> Human Resources Specialist | Sep 2015—Jun 2016</h6>
-            		 <p>I was responsible for organisation development and conducting interviews for those who want to join us.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            	            	
+            		 <p>I was responsible for organisation development and conducting interviews for those who want to join us.<br />Catalysis is the first student activity in the credit hours engineering program in Ain Shams University, aiming to develop students scientifically and increase their awareness, and working on applying science and using it to the best of our country.</p>            	            	
             	</div>
             	<div className="m-5">
             		 <h5 className="section-title">Arabesque</h5>
             		 <h6 className="section-title"> Choreographer | Jan 2018—Apr 2018</h6>
-            		 <p>I was part of a contemporary dancing group, we performed on our university's theater infront of 2000+ people.<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            	            	
+            		 <p>I was part of a contemporary dancing group, we performed on our university's theater infront of 2000+ people.<br />Arabesque is a student activity aims at helping students to increase their awareness, discover their talents and accepting others. Also motivate them to play a vital role in developing their society using all their positive potentials.</p>            	            	
             	</div>
             </div>	
             <h3 className="section-title">Certificates</h3>
