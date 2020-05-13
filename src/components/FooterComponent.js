@@ -21,7 +21,8 @@ function Footer(props) {
 		              123, Main Road<br />
 		              Nasr City, Cairo<br />
 		              Egypt<br />
-		              <i className="fa fa-phone fa-lg footer-link color-text"></i> +123456789<br />
+		              <i className="fa fa-phone fa-lg footer-link color-text"></i> <a className="footer-link" href="tel:01060162902">
+                         +201060162902</a><br />
 		              <i className="fa fa-envelope fa-lg footer-link color-text"></i> <a className="footer-link" href="mailto:a7mad53@ymail.com">
                          a7mad53@ymail.com</a>
                     </address>
