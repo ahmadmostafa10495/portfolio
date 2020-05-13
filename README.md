@@ -1,3 +1,6 @@
+This is a Personal Protfolio React app, designed as a task for Instabug 2020 internship program, The app can be found is the link next to the description, also can be cloned and used locally as follows.<br />
+#######################
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
