@@ -4,6 +4,9 @@ import {Navbar, NavbarBrand, Nav, NavbarToggler, Collapse,
 import { NavLink } from 'react-router-dom';
 import logolight from "../images/logolight.png";
 import logodark from "../images/logodark.png";
+import iconlight from "../images/iconlight.ico";
+import icondark from "../images/icondark.ico";
+
 class Header extends Component {
 
 	constructor(props) {
@@ -41,9 +44,14 @@ class Header extends Component {
 	  	document.documentElement.style.setProperty('--specialDarkBlue', '#919EFF');
 	  	document.documentElement.style.setProperty('--text', '#000');
 	  	// $("#dark-theme-btn").html("Dark");
-	  	// document.getElementById("dark-theme-btn").innerHtml = "Dark";
+	  	// document.getElementById("favicon").setAttribute("href","%PUBLIC_URL%/favicon.ico");
 	  	// let body = document.getElementsByTagName("BODY")[0];
     // 	body.style.color = "#000"
+	    var link = document.getElementById("favicon");
+	    // link.type = 'image/x-icon';
+	    link.rel = 'icon';
+	    link.href = iconlight;
+	    document.getElementsByTagName('head')[0].appendChild(link);
   	}
   	else
   	{  		
@@ -62,6 +70,11 @@ class Header extends Component {
 	  	document.documentElement.style.setProperty('--text', '#fff');
 	  	// $("#dark-theme-btn").html("Light");
 	  	// document.getElementById("dark-theme-btn").innerHtml = "Light";
+	    var link = document.getElementById("favicon");
+	    // link.type = 'image/x-icon';
+	    link.rel = 'icon';
+	    link.href = icondark;
+	    document.getElementsByTagName('head')[0].appendChild(link);
   	}
 
 	    console.log("isDark",this.state.isDark);
